@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #394867;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title {
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.display {
+    padding: 30px 20px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: right;
+    color: white;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button button {
+    padding: 20px 15px;
+    font-weight: 500;
+    border: none;
+    background-color: #212A3E;
+    color: white;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #404858;
+}
