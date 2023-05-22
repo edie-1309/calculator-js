@@ -21,7 +21,9 @@
 }
 
 .display {
-    padding: 30px 20px;
+    width: auto;
+    height: 70px;
+    padding: 0px 20px;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 1px;
